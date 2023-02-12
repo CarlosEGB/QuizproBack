@@ -1,5 +1,7 @@
 package com.quizpro.quizpro.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -7,6 +9,7 @@ import javax.persistence.*;
 public class Answers {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String answer;
@@ -15,6 +18,7 @@ public class Answers {
     private boolean isCorrect;
 
     @ManyToOne
+    @JsonIgnore
     @JoinColumn(name = "question_id")
     private Questions question;
 
