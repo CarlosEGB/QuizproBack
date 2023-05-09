@@ -3,6 +3,7 @@ package com.quizpro.quizpro.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "answers")
@@ -21,6 +22,11 @@ public class Answers {
     @JsonIgnore
     @JoinColumn(name = "question_id")
     private Questions question;
+
+    @OneToMany(mappedBy = "optionAnswer")
+    @JsonIgnore
+    private List<Results> resultsList;
+
 
     public Answers() {
     }

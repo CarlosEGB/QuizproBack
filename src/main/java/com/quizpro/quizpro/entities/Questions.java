@@ -1,5 +1,7 @@
 package com.quizpro.quizpro.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -15,6 +17,10 @@ public class Questions {
 
     @OneToMany(mappedBy = "question")
     private List<Answers> answers;
+
+    @OneToMany(mappedBy = "question")
+    @JsonIgnore
+    private List<Results> resultsList;
 
     public Questions() {
     }

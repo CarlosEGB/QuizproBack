@@ -1,6 +1,9 @@
 package com.quizpro.quizpro.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -13,6 +16,10 @@ public class Users {
     private String name;
     private String email;
     private String password;
+
+    @OneToMany(mappedBy = "user")
+    @JsonIgnore
+    private List<Results> resultsList;
 
     public Users() {
     }
