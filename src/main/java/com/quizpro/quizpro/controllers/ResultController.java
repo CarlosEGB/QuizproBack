@@ -30,9 +30,9 @@ public class ResultController {
     }
 
     @GetMapping("/getTotalAnswerOK")
-    public ResponseEntity<TotalQuestionsOkModel> getTotalQuestionsOk(@RequestBody Results results) {
+    public ResponseEntity<TotalQuestionsOkModel> getTotalQuestionsOk(@RequestParam long userId, @RequestParam long questionId) {
         try {
-            return new ResponseEntity<>(resultsService.getTotalQuestionsOk(results.getUser().getId(), results.getQuestion().getId()), HttpStatus.OK);
+            return new ResponseEntity<>(resultsService.getTotalQuestionsOk(userId,questionId), HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
