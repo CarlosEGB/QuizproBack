@@ -1,0 +1,441 @@
+{
+	"info": {
+		"_postman_id": "41633041-4a18-48f3-b131-6965a4bdeb05",
+		"name": "Quizpro-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Questions",
+			"item": [
+				{
+					"name": "Get Question",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/questions/get/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"questions",
+								"get",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Test",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/questions/get/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"questions",
+										"get",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 12 Feb 2023 01:08:19 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"question\": \"<p>Desde el punto de vista de las pruebas, &iquest;cu&aacute;les son los objetivos principales de la gesti&oacute;n de la configuraci&oacute;n?&nbsp;</p>\\r\\n<p>i) Identificar la versi&oacute;n del software sometido a prueba.&nbsp;<br />\\r\\nii) Controlar la versi&oacute;n de los elementos del software de prueba.&nbsp;<br />\\r\\niii) Desarrollar nuevos elementos de software de prueba.&nbsp;<br />\\r\\niv) Seguimiento de los cambios en los elementos de software de prueba.&nbsp;<br />\\r\\nv) Analizar la necesidad de nuevos elementos de software de prueba.</p>\",\n    \"answers\": [\n        {\n            \"id\": 1,\n            \"answer\": \"ii, iv and v.\",\n            \"correct\": false\n        },\n        {\n            \"id\": 2,\n            \"answer\": \"ii, iii and iv, i.\",\n            \"correct\": false\n        },\n        {\n            \"id\": 3,\n            \"answer\": \"i, ii and iv. \",\n            \"correct\": true\n        },\n        {\n            \"id\": 4,\n            \"answer\": \"i, iii and v.\",\n            \"correct\": false\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/questions/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"questions",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Test",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/questions/all",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"questions",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 12 Feb 2023 01:09:20 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"question\": \"<p>Desde el punto de vista de las pruebas, &iquest;cu&aacute;les son los objetivos principales de la gesti&oacute;n de la configuraci&oacute;n?&nbsp;</p>\\r\\n<p>i) Identificar la versi&oacute;n del software sometido a prueba.&nbsp;<br />\\r\\nii) Controlar la versi&oacute;n de los elementos del software de prueba.&nbsp;<br />\\r\\niii) Desarrollar nuevos elementos de software de prueba.&nbsp;<br />\\r\\niv) Seguimiento de los cambios en los elementos de software de prueba.&nbsp;<br />\\r\\nv) Analizar la necesidad de nuevos elementos de software de prueba.</p>\",\n        \"answers\": [\n            {\n                \"id\": 1,\n                \"answer\": \"ii, iv and v.\",\n                \"correct\": false\n            },\n            {\n                \"id\": 2,\n                \"answer\": \"ii, iii and iv, i.\",\n                \"correct\": false\n            },\n            {\n                \"id\": 3,\n                \"answer\": \"i, ii and iv. \",\n                \"correct\": true\n            },\n            {\n                \"id\": 4,\n                \"answer\": \"i, iii and v.\",\n                \"correct\": false\n            }\n        ]\n    },\n    {\n        \"id\": 2,\n        \"question\": \"<p><span style=\\\"font-size:10.078991889953613pt\\\"><span><span style=\\\"color:#01002a\\\"><strong><img src=\\\"https://lh4.googleusercontent.com/EqMpKHpYuMqe_vumN2In_EfKGFTdsRvbZrH3rhJQZKDjIBaAIrAojXO73G1CKgG44uVWNM4Jq3O_Wke0CL_PPr1O9_xU7cLtq6XmOTElz0TzGVTB1lQJw4Z03dt9R8pe3aogoT66Im67ThBBePXrYzI\\\" style=\\\"height:153px; width:290px\\\" /></strong></span></span></span></p>\",\n        \"answers\": [\n            {\n                \"id\": 5,\n                \"answer\": \"D, A, B, C. \",\n                \"correct\": true\n            },\n            {\n                \"id\": 6,\n                \"answer\": \"A, B, C, D. \",\n                \"correct\": false\n            },\n            {\n                \"id\": 7,\n                \"answer\": \"D, A, B. \",\n                \"correct\": false\n            },\n            {\n                \"id\": 8,\n                \"answer\": \"A, B, C. \",\n                \"correct\": false\n            }\n        ]\n    },\n    {\n        \"id\": 3,\n        \"question\": \"<p>&iquest;Cu&aacute;l de las siguientes es una tarea PRINCIPAL de la planificaci&oacute;n de pruebas?&nbsp;</p>\",\n        \"answers\": [\n            {\n                \"id\": 9,\n                \"answer\": \"Programar las tareas de análisis y diseño de pruebas. \",\n                \"correct\": true\n            },\n            {\n                \"id\": 10,\n                \"answer\": \"Iniciar acciones correctivas.\",\n                \"correct\": false\n            },\n            {\n                \"id\": 11,\n                \"answer\": \"Supervisar el progreso y la cobertura de las pruebas. \",\n                \"correct\": false\n            },\n            {\n                \"id\": 12,\n                \"answer\": \"Evaluar y analizar los resultados.\",\n                \"correct\": false\n            }\n        ]\n    },\n    {\n        \"id\": 4,\n        \"question\": \"<p>&iquest;Cu&aacute;l de las siguientes opciones describe MEJOR la diferencia entre una inspecci&oacute;n (revisi&oacute;n formal) y un recorrido (revisi&oacute;n formal)?&nbsp;</p>\",\n        \"answers\": [\n            {\n                \"id\": 13,\n                \"answer\": \"Tanto las inspecciones como las revisiones son dirigidas por el autor.\",\n                \"correct\": false\n            },\n            {\n                \"id\": 14,\n                \"answer\": \"Una inspección es dirigida por un moderador y una revisión es dirigida por el autor.\",\n                \"correct\": true\n            },\n            {\n                \"id\": 15,\n                \"answer\": \"Tanto las inspecciones como los recorridos son dirigidos por un moderador capacitado.\",\n                \"correct\": false\n            },\n            {\n                \"id\": 16,\n                \"answer\": \"El autor dirige el recorrido. El autor no está presente durante las inspecciones.\",\n                \"correct\": false\n            }\n        ]\n    },\n    {\n        \"id\": 5,\n        \"question\": \"<p>&iquest;D&oacute;nde se pueden realizar las pruebas funcionales?&nbsp;</p>\",\n        \"answers\": [\n            {\n                \"id\": 17,\n                \"answer\": \"Sólo en los niveles de pruebas del sistema y de aceptación. \",\n                \"correct\": false\n            },\n            {\n                \"id\": 18,\n                \"answer\": \"En todos los niveles de prueba. \",\n                \"correct\": true\n            },\n            {\n                \"id\": 19,\n                \"answer\": \"En todos los niveles por encima de las pruebas de integracion. \",\n                \"correct\": false\n            },\n            {\n                \"id\": 20,\n                \"answer\": \"En el nivel de prueba de aceptacion solamente.\",\n                \"correct\": false\n            }\n        ]\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"<p>&iquest;Cu&aacute;l es el objetivo PRINCIPAL al revisar un producto de software?</p>\",\r\n    \"answers\": [\r\n        {\r\n            \"answer\": \"Identificar posibles fallos de la aplicación mediante el uso de una especificación de prueba.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"answer\": \"Identificar defectos en cualquier producto de software.\",\r\n            \"correct\": true\r\n        },\r\n        {\r\n            \"answer\": \"Identificar errores ortograficos en una especificacion de requerimientos.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"answer\": \"Para identificar inconsistencias de estándares en el código.\",\r\n            \"correct\": false\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/questions/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"questions",
+								"add"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"question\": \"<p>&iquest;Cu&aacute;l es el objetivo PRINCIPAL al revisar un producto de software?</p>\",\r\n    \"answers\": [\r\n        {\r\n            \"answer\": \"Identificar posibles fallos de la aplicación mediante el uso de una especificación de prueba.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"answer\": \"Identificar defectos en cualquier producto de software.\",\r\n            \"correct\": true\r\n        },\r\n        {\r\n            \"answer\": \"Identificar errores ortograficos en una especificacion de requerimientos.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"answer\": \"Para identificar inconsistencias de estándares en el código.\",\r\n            \"correct\": false\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/questions/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"questions",
+										"add"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 12 Feb 2023 01:52:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 9,\n    \"question\": \"<p>&iquest;Cu&aacute;l es el objetivo PRINCIPAL al revisar un producto de software?</p>\",\n    \"answers\": [\n        {\n            \"id\": 25,\n            \"answer\": \"Identificar posibles fallos de la aplicación mediante el uso de una especificación de prueba.\",\n            \"correct\": false\n        },\n        {\n            \"id\": 26,\n            \"answer\": \"Identificar defectos en cualquier producto de software.\",\n            \"correct\": true\n        },\n        {\n            \"id\": 27,\n            \"answer\": \"Identificar errores ortograficos en una especificacion de requerimientos.\",\n            \"correct\": false\n        },\n        {\n            \"id\": 28,\n            \"answer\": \"Para identificar inconsistencias de estándares en el código.\",\n            \"correct\": false\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 9,\r\n    \"question\": \"<p>&iquest;Cu&aacute;l es el objetivo PRINCIPAL ksjdbnjksbdjkbskjdbjks al revisar un producto de software?</p>\",\r\n    \"answers\": [\r\n        {\r\n            \"id\": 25,\r\n            \"answer\": \"pppppppppppppppppppppppIdentificar posibles fallos de la aplicación mediante el uso de una especificación de prueba.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"id\": 26,\r\n            \"answer\": \"Identificar defectos en cualquier producto de software.\",\r\n            \"correct\": true\r\n        },\r\n        {\r\n            \"id\": 27,\r\n            \"answer\": \"Identificar errores ortograficos en una especificacion de requerimientos.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"id\": 28,\r\n            \"answer\": \"Para identificar inconsistencias brkasjbdkvbasd de estándares en el código.\",\r\n            \"correct\": false\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/questions/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"questions",
+								"update"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 9,\r\n    \"question\": \"<p>&iquest;Cu&aacute;l es el objetivo PRINCIPAL ksjdbnjksbdjkbskjdbjks al revisar un producto de software?</p>\",\r\n    \"answers\": [\r\n        {\r\n            \"id\": 25,\r\n            \"answer\": \"pppppppppppppppppppppppIdentificar posibles fallos de la aplicación mediante el uso de una especificación de prueba.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"id\": 26,\r\n            \"answer\": \"Identificar defectos en cualquier producto de software.\",\r\n            \"correct\": true\r\n        },\r\n        {\r\n            \"id\": 27,\r\n            \"answer\": \"Identificar errores ortograficos en una especificacion de requerimientos.\",\r\n            \"correct\": false\r\n        },\r\n        {\r\n            \"id\": 28,\r\n            \"answer\": \"Para identificar inconsistencias brkasjbdkvbasd de estándares en el código.\",\r\n            \"correct\": false\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/questions/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"questions",
+										"update"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 12 Feb 2023 02:32:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 9,\n    \"question\": \"<p>&iquest;Cu&aacute;l es el objetivo PRINCIPAL ksjdbnjksbdjkbskjdbjks al revisar un producto de software?</p>\",\n    \"answers\": [\n        {\n            \"id\": 25,\n            \"answer\": \"pppppppppppppppppppppppIdentificar posibles fallos de la aplicación mediante el uso de una especificación de prueba.\",\n            \"correct\": false\n        },\n        {\n            \"id\": 26,\n            \"answer\": \"Identificar defectos en cualquier producto de software.\",\n            \"correct\": true\n        },\n        {\n            \"id\": 27,\n            \"answer\": \"Identificar errores ortograficos en una especificacion de requerimientos.\",\n            \"correct\": false\n        },\n        {\n            \"id\": 28,\n            \"answer\": \"Para identificar inconsistencias brkasjbdkvbasd de estándares en el código.\",\n            \"correct\": false\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/questions/delete/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"questions",
+								"delete",
+								"11"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/questions/delete/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"questions",
+										"delete",
+										"10"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 12 Feb 2023 02:56:46 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Pregunta eliminada con éxito\",\n    \"data\": null\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
