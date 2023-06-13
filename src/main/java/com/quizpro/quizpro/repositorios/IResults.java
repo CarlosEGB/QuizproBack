@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IResults extends JpaRepository<Results, Long> {
 
-    @Query("SELECT new com.quizpro.quizpro.models.TotalQuestionsOkModel(SUM(CASE WHEN a.isCorrect = true THEN 1 ELSE 0 END), COUNT(r.question.id)) " +
+    @Query("SELECT new com.quizpro.quizpro.models.TotalQuestionsOkModel(COALESCE(SUM(CASE WHEN a.isCorrect = true THEN 1 ELSE 0 END),0), COUNT(r.question.id)) " +
             "FROM Results r INNER JOIN r.optionAnswer a " +
             "WHERE r.user.id = :userId AND r.question.id = :questionId")
     TotalQuestionsOkModel totalAnswersForQuestionAndUser(@Param("userId") Long userId,
