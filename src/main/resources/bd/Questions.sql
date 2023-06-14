@@ -1,6 +1,6 @@
 INSERT INTO questions (question) VALUES
 ('<p>Dada la siguiente tabla de transiciones de estado &iquest;Cu&aacute;l de los siguientes casos de prueba cubrir&aacute; la siguiente serie de transiciones de estado? S1 SO S1 S2 SO</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506200706-1.png" style="height:114px; width:217px" /></p>'),('<p>Desde el punto de vista de las pruebas, &iquest;cu&aacute;les son los objetivos principales de la gesti&oacute;n de la configuraci&oacute;n?&nbsp;</p>
+<p><img src="/src/assets/imgs/id_1.png" style="height:114px; width:217px" /></p>'),('<p>Desde el punto de vista de las pruebas, &iquest;cu&aacute;les son los objetivos principales de la gesti&oacute;n de la configuraci&oacute;n?&nbsp;</p>
 <p>i) Identificar la versi&oacute;n del software sometido a prueba.&nbsp;<br />
 ii) Controlar la versi&oacute;n de los elementos del software de prueba.&nbsp;<br />
 iii) Desarrollar nuevos elementos de software de prueba.&nbsp;<br />
@@ -22,7 +22,7 @@ v) Herramientas de gesti&oacute;n de incidencias.&nbsp;</p>'),('<p>&iquest;Cu&aa
 ('<p>&iquest;En el marco de qu&eacute; proceso de prueba se determinan los criterios de salida?</p>'),
 ('<p>Dado el siguiente diagrama de transici&oacute;n de estados &iquest;Cu&aacute;l de las siguientes series de transiciones de estados contiene una transici&oacute;n INV&Aacute;LIDA que puede indicar un fallo en el dise&ntilde;o del sistema?&nbsp;<br />
 Exposici&oacute;n:</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506211320-2.png" style="height:81px; width:325px" /></p>'),('<p>&iquest;Cu&aacute;l de las siguientes es una tarea PRINCIPAL de la implementaci&oacute;n y ejecuci&oacute;n de pruebas?&nbsp;</p>
+<p><img src="/src/assets/imgs/id_13.png" style="height:81px; width:325px" /></p>'),('<p>&iquest;Cu&aacute;l de las siguientes es una tarea PRINCIPAL de la implementaci&oacute;n y ejecuci&oacute;n de pruebas?&nbsp;</p>
 '),
 ('<p>&iquest;Qu&eacute; es una prueba beta?&nbsp;</p>'),
 ('<p>Dado el siguiente fragmento de c&oacute;digo, &iquest;cu&aacute;ntas pruebas son necesarias para una cobertura de decisi&oacute;n del 100%?&nbsp;</p>
@@ -59,7 +59,7 @@ imprimir &quot;Longitud: &quot; &amp; longitud</p>
 ('<p>&iquest;Qu&eacute; actividad del proceso de prueba fundamental crea conjuntos de pruebas para una ejecuci&oacute;n eficaz de las pruebas?&nbsp;</p>'),
 ('<p>&iquest;Cu&aacute;l de las siguientes opciones es VERDADERA?&nbsp;</p>'),
 ('<p>Dada la siguiente tabla de decisi&oacute;n: &iquest;Cu&aacute;l de los siguientes casos de prueba y resultados esperados es V&Aacute;LIDO?</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506212327-8.png" style="height:280px; width:400px" /></p>'),('<p>&iquest;Cu&aacute;ndo deben aplicarse los procedimientos de gesti&oacute;n de la configuraci&oacute;n?&nbsp;</p>'),
+<p><img src="/src/assets/imgs/id_21.png" style="height:280px; width:400px" /></p>'),('<p>&iquest;Cu&aacute;ndo deben aplicarse los procedimientos de gesti&oacute;n de la configuraci&oacute;n?&nbsp;</p>'),
 ('<p>&iquest;Cu&aacute;les de las siguientes son caracter&iacute;sticas de las pruebas de regresi&oacute;n?&nbsp;<br />
 i) Las pruebas de regresi&oacute;n se realizan S&Oacute;LO una vez.&nbsp;<br />
 ii) Las pruebas de regresi&oacute;n se llevan a cabo despu&eacute;s de realizar las correcciones necesarias.&nbsp;<br />
@@ -117,7 +117,7 @@ C. vxy&nbsp;<br />
 D. vxz&nbsp;<br />
 &iquest;Cu&aacute;l es la combinaci&oacute;n M&Iacute;NIMA de rutas necesaria para proporcionar una cobertura completa de sentencias?&nbsp;</p>
 <p>Exposici&oacute;n:</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506211420-3.png" style="height:348px; width:180px" /></p>'),('<p>&iquest;Cu&aacute;l de las siguientes es la M&Aacute;S caracter&iacute;stica de las t&eacute;cnicas basadas en la especificaci&oacute;n (caja negra)?&nbsp;</p>'),
+<p><img src="/src/assets/imgs/id_39.png" style="height:348px; width:180px" /></p>'),('<p>&iquest;Cu&aacute;l de las siguientes es la M&Aacute;S caracter&iacute;stica de las t&eacute;cnicas basadas en la especificaci&oacute;n (caja negra)?&nbsp;</p>'),
 ('<p>&iquest;Cu&aacute;l de las siguientes combinaciones describe correctamente un enfoque v&aacute;lido para la prueba de componentes?&nbsp;<br />
 i) Pruebas funcionales del componente de forma aislada.&nbsp;<br />
 ii) Pruebas basadas en la estructura del c&oacute;digo sin registro de incidencias.&nbsp;<br />
@@ -412,10 +412,10 @@ ENDIF&nbsp;</p>'),('<p>El c&oacute;digo no accesible se encontrar&iacute;a mejor
 <p>pulsando un bot&oacute;n. La primera pulsaci&oacute;n del bot&oacute;n lo enciende a velocidad 1, la segunda a velocidad</p>
 <p>2 y la tercera pulsaci&oacute;n lo apaga.</p>
 <p>&nbsp;</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506211610-4.png" style="height:192px; width:210px" /></p>
+<p><img src="/src/assets/imgs/id_243.png" style="height:192px; width:210px" /></p>
 <p><br />
 &iquest;Cu&aacute;l de las siguientes series de transiciones de estado proporcionar&aacute; cobertura de decisi&oacute;n sin condiciones?</p>'),('<p>&iquest;Cu&aacute;ntos casos de prueba son necesarios para alcanzar una cobertura de decisi&oacute;n del 100 %?</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506211848-5.png" style="height:170px; width:163px" /></p>'),('<p>&iquest;Cu&aacute;l de las siguientes afirmaciones sobre la norma de prueba de componentes es falsa? (Inconclusa)</p>'),
+<p><img src="/src/assets/imgs/id_244.png" style="height:170px; width:163px" /></p>'),('<p>&iquest;Cu&aacute;l de las siguientes afirmaciones sobre la norma de prueba de componentes es falsa? (Inconclusa)</p>'),
 ('<p>&iquest;Podr&iacute;a considerarse que las revisiones o inspecciones forman parte de las pruebas?</p>'),
 ('<p>El objetivo principal de las pruebas de aceptaci&oacute;n es:</p>'),
 ('<p>&iquest;Cu&aacute;l de las siguientes opciones puede ayudar a los evaluadores a comprender las causas fundamentales de los defectos de proyectos anteriores?</p>'),
@@ -511,14 +511,14 @@ Cualquier otra cantidad tributa al 40%.</p>
 
 <p>&iquest;Cu&aacute;l de estos grupos de cifras entrar&iacute;a en la misma clase de equivalencia? (inconcluso)</p>'),('<p>En caso de grandes sistemas :&nbsp;</p>'),
 ('<p>&iquest;Cu&aacute;l es el resultado esperado para cada uno de los siguientes casos de prueba de los miembros de la tarjeta Citibank?</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506212045-6.png" style="height:423px; width:385px" /></p>
+<p><img src="/src/assets/imgs/id_282.png" style="height:423px; width:385px" /></p>
 <p>A. Citibank card member, holding a Silver room&nbsp;<br />
 B. Non Citibank-member, holding a Platinum room&nbsp;</p>'),('<p>&iquest;Cu&aacute;l de las siguientes no es una fase del Proceso Fundamental de Pruebas?&nbsp;</p>'),
 ('<p>La estructura de un informe de incidencias est&aacute; contemplada en el Standard for Software Test Documentation IEEE 829 y se denomina como:</p>'),
 ('<p>Pruebas repetidas de un programa ya probado, tras su modificaci&oacute;n, para descubrir cualquier defecto introducido o descubierto como resultado de los cambios en el software que se est&aacute; probando o en otro componente de software relacionado o no relacionado:</p>
 '),
 ('<p>Considere el siguiente diagrama de transici&oacute;n de estado de un conmutador. &iquest;Cu&aacute;l de los siguientes representa una transici&oacute;n de estado inv&aacute;lida?</p>
-<p><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230506212116-7.png" style="height:100px; width:155px" /></p>'),('<p>Utilizamos el resultado del an&aacute;lisis de requisitos, la especificaci&oacute;n de requisitos, como entrada para la redacci&oacute;n: (inconcluso)</p>'),
+<p><img src="/src/assets/imgs/id_286.png" style="height:100px; width:155px" /></p>'),('<p>Utilizamos el resultado del an&aacute;lisis de requisitos, la especificaci&oacute;n de requisitos, como entrada para la redacci&oacute;n: (inconcluso)</p>'),
 ('<p>Deben realizarse pruebas de regresi&oacute;n:&nbsp;<br />
 i. Cada semana&nbsp;<br />
 ii. Despu&eacute;s de cambiar el software&nbsp;<br />
