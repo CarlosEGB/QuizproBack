@@ -13,6 +13,7 @@ public class Users {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String dni;
+    private String user;
     private String name;
     private String email;
     private String password;
@@ -24,9 +25,10 @@ public class Users {
     public Users() {
     }
 
-    public Users(long id, String dni, String name, String email, String password) {
+    public Users(long id, String dni, String user, String name, String email, String password) {
         this.id = id;
         this.dni = dni;
+        this.user = user;
         this.name = name;
         this.email = email;
         this.password = password;
@@ -46,6 +48,14 @@ public class Users {
 
     public void setDni(String dni) {
         this.dni = dni;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
     }
 
     public String getName() {
@@ -77,6 +87,7 @@ public class Users {
         return "Users{" +
                 "id=" + id +
                 ", dni='" + dni + '\'' +
+                ", user='" + user + '\'' +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
