@@ -18,5 +18,5 @@ INSERT INTO answers (answer, is_correct, question_id) VALUES
 ('A, B, C.',false,3);
 
 INSERT INTO users (dni,user,name,email,password) values
-("7475","cc","Carlos","carlos@yopmail.com","123456"),
-("8521","nn","Nicolas","nicolas@yopmail.com","123456");
+("7475","carlos","Carlos","carlos@yopmail.com","123456"),
+("8521","nicolas","Nicolas","nicolas@yopmail.com","123456");
