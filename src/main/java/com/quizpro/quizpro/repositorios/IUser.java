@@ -5,7 +5,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IUser extends CrudRepository<Users,Long> {
+public interface IUser extends CrudRepository<Users, Long> {
 
-    Users findByDni(String dni);
+    Users findByUser(String user);
 }
